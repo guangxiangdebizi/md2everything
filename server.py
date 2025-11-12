@@ -417,13 +417,13 @@ def convert():
 
 if __name__ == '__main__':
     print("\n" + "="*60)
-    print("  🚀 Markdown 转换工具已启动")
+    print("  Markdown 转换工具已启动")
     print("="*60)
-    print("\n  📍 访问地址: http://localhost:5000")
-    print("\n  💡 支持格式:")
+    print("\n  访问地址: http://localhost:5000")
+    print("\n  支持格式:")
     print("     - HTML (通过浏览器打印可转为 PDF)")
     print("     - Word (DOCX)")
-    print("\n  💡 完整 Mermaid 图表支持请使用 index.html")
-    print("\n  💡 按 Ctrl+C 停止服务\n")
+    print("\n  完整 Mermaid 图表支持请使用 index.html")
+    print("\n  按 Ctrl+C 停止服务\n")
     
     app.run(debug=True, host='0.0.0.0', port=5000)
